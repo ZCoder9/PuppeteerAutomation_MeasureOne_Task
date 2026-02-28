@@ -1,0 +1,6 @@
+numpy
+pyppeteer
+python-dotenv
+opencv-python
+pytesseract
+requests
