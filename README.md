@@ -2,7 +2,7 @@
 
 This repository contains a Python script (`web_automation.py`) that performs an automated web task. It uses Tesseract OCR, so you must provide the path to the Tesseract binary via an environment variable.
 
-> ⚠️ The instructions below refer to `web_automation.py`. If your script is named `emo.py`, adjust accordingly.
+> ⚠️ The instructions below refer to `web_automation.py`.
 
 ## Setup
 
