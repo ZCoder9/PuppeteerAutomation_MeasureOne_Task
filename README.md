@@ -50,5 +50,3 @@ python web_automation.py
 - Keep the virtual environment activated whenever running the script to use the installed dependencies.
 
 ---
-
-Feel free to modify or extend this README as your project evolves.
