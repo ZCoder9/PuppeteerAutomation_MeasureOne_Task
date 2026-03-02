@@ -12,13 +12,18 @@ This repository contains a Python script (`web_automation.py`) that performs an 
    cd PuppeteerAutomation_MeasureOne_Task
    ```
 
-2. **Create a `.env` file** in the project root and set the `TESSERACT_PATH` environment variable:
+2. **Install Tesseract OCR** on your system:
+   - Download the Tesseract installer from: https://github.com/UB-Mannheim/tesseract/wiki
+   - Run the installer and follow the installation wizard
+   - Note the installation path (default is usually `C:\Program Files\Tesseract-OCR`)
+
+3. **Create a `.env` file** in the project root and set the `TESSERACT_PATH` environment variable:
    ```env
    TESSERACT_PATH=C:\Program Files\Tesseract-OCR\tesseract.exe
    ```
    Replace the value with the actual installation path of Tesseract on your system.
 
-3. **Create a virtual environment** and activate it:
+4. **Create a virtual environment** and activate it:
    ```powershell
    python -m venv venv
    .\venv\Scripts\Activate.ps1     # on PowerShell
@@ -26,7 +31,7 @@ This repository contains a Python script (`web_automation.py`) that performs an 
    .\venv\Scripts\activate.bat    # on cmd.exe
    ```
 
-4. **Install dependencies** from `requirements.txt`:
+5. **Install dependencies** from `requirements.txt`:
    ```powershell
    pip install -r requirements.txt
    ```
